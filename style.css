@@ -1,0 +1,392 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.justify-c{
+    justify-content: center;
+}
+
+.align-i{
+    align-items: center;
+}
+
+.align-c{
+    align-content: center;
+}
+
+.t-center{
+    text-align: center;
+}
+
+@media (min-width:770px)
+{
+    .container{
+
+        max-width: 720px;
+    }
+}
+
+@media (min-width:900px)
+{
+    .container{
+
+        max-width: 850px;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .container{
+
+        max-width: 1140px;
+    }
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+header .topbar{
+    background: #ff0000;
+    padding: .2rem 0;
+}
+
+.container{
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+header .topbar .container .auth>div a{
+    text-decoration: none;
+    color: white;
+}
+
+header .topbar .container .icons img{
+    margin-right: .2rem;
+}
+
+header .topbar .container .auth span{
+    margin: 0 .8rem;
+    color: white;
+}
+header .topbar .container .auth >div img{
+    margin-right: .2rem;
+}
+
+nav .brand{
+    padding: .7rem 0;
+}
+
+nav .brand .contact img, nav .brand .time img{
+    padding-right: .8rem;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav .navbar a{
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    margin-right: .5rem;
+    border: 1px solid transparent;
+}
+
+nav .navbar a.active{
+    background: red;
+    border-radius: 5px;
+    color: white;
+}
+
+nav .navbar a:hover{
+    background: none;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: all .3s ease;
+    color: black;
+
+}
+
+section .hero{
+    margin-top: 1rem;
+    width: 100%;
+    height: 350px;
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+section .hero-wrapper{
+    position: relative;    
+}
+
+section .hero-wrapper .welcome{
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+section .hero-wrapper img.icon{
+    width: 120px;
+}
+
+section .hero-wrapper .content p{
+    width: 50%;
+    padding-top: .3rem;
+}
+
+section .hero-wrapper div button{
+    margin-right: 1rem;
+}
+
+section .hero-wrapper .main-image img{
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    right: 5rem;
+    
+    
+}
+
+.btn{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: .5rem;
+    font-weight: 400;
+}
+
+.btn-pri{
+    background: #ff0000;
+    color: white;
+}
+
+.btn-sec{
+    background: black;
+    color: white;
+}
+
+.btn-pri:hover{
+    border: 1px solid red;
+    color: black;
+    background: none;
+    transition: all .3s ease;
+}
+
+.btn-sec:hover{
+    border: 1px solid black;
+    color: black;
+    background: none;
+    transition: all .5s ease;
+}
+
+section.top-products{
+    background: whitesmoke;
+    width: 100%;
+    height: 620px;
+}
+
+section.top-products .container h2{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 28px;
+}
+
+section.top-products .main-wrapper .plate{
+    width: 80%;
+    height: 250px;
+    object-fit: contain;
+}
+
+section.top-products .main-wrapper hr, section.top-products .main-wrapper .stars img{
+    margin: .6rem 0;
+}
+
+section.top-products .main-wrapper .product{
+    background: white;
+    width: 370px;
+    padding: 1.2rem 0;
+    margin-right: 1rem;
+    border-radius: 3px;
+}
+
+section.top-products .main-wrapper .product .price{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+section.top-products .main-wrapper .product button{
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    border: 1px solid red;
+}
+
+section.top-products .main-wrapper .product button img{
+    background: #ff0000;
+    height: 22px;
+    padding: 5px;
+    margin-right: .5rem;
+}
+
+section.top-products .main-wrapper .product button span{
+    padding-right: .5rem;
+}
+
+section.top-products .main-wrapper .product button:hover{
+    background: red;
+    color: white;
+    transition: all .3s ease;
+}
+
+section.about-us{
+    padding: 3rem 0;
+    height: 430px;
+}
+
+section.about-us .container h1{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 28px;
+} 
+section.about-us .about-wrapper img{
+    width: 450px;
+}
+
+section.about-us .about-wrapper h2{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+section.about-us .about-wrapper p{
+    margin-bottom: 1rem;
+}
+
+section.our-services{
+    background: whitesmoke;
+    padding: 3rem 0;
+}
+
+section.our-services .service{
+    margin-top: 1rem;
+    background: white;
+    border-radius: 5px;
+    padding: 4rem 2rem;
+    padding-bottom: 2.5rem;
+    position: relative;
+    width: 30%;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+section.our-services .container h1{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 28px;
+}
+
+section.our-services .container .hover{
+    color: red;
+}
+
+section.our-services .container p{
+    padding: .5rem 0;
+}
+
+section.our-services .service img{
+    position: absolute;
+    top: -45px;
+    left: 35%;
+    transform: translateX(0px);
+}
+
+section.our-services .service button{
+    margin-top: .5rem;
+}
+
+section.big-deal{
+    background-image: linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,.9)) , url(images/food-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    margin-right: -2em;
+    margin:0em 0em;
+}
+
+section.big-deal h2{
+    padding-top: 2em;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+}
+
+section.big-deal .box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    color: white;
+    text-align: center;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+section.big-deal .container div span:first-child{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section.big-deal .container div span:last-child{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+section.article .article-wrap div img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+section.article .article-wrap{
+}
+
+section.article .article-wrap >div{
+    margin-right: 2rem;
+    background: gainsboro;
+    width: 40%;
+    padding: 1rem 1rem;
+}
